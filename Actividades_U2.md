@@ -150,6 +150,94 @@ Ahora seleccionaremos los discos que van participar en la copia de seguridad.
 
 También podemos seleccionar un medio extraible o una ubicación de red, en mi caso usare un disco duro.
 
+<p align="center">
+    <img src="imagenes/A3_1.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+ahora seleccionaremos las unidades de las que queremos que haga las copias
+<p align="center">
+    <img src="imagenes/A3_2.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+
+ y esperamos a que acabe
+
+ <p align="center">
+    <img src="imagenes/A3_3.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+
+nos preguntara si queremos realizar un disco de reparación para el sistema (Esto nos posibilitara el iniciar un sistema operativo en caso de no poder iniciar nuestro sistema)
+
+## 4. Cobain Backup
+Cobian Backup es un software de copia de seguridad de datos diseñado para ayudar a los usuarios a respaldar y proteger sus archivos y carpeta.
+Características:
+
+- **Facil de usar**
+- **Gratuito incluso en entorno comercial**
+- **Buen rendimiento**
+- **programación de copias**
+- **se puede usar como servicio**
+Realizaremos una copia de seguridad el con cobain,
+Realizaremos la instalación de manera habitual como es normal en windows.
+Para realizar una copia de seguridad lo primero que tenemos que hacer es ciclar en el símbolo “+” y configurarlo como queramos
+
+<p align="center">
+    <img src="imagenes/A4_1.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+en la siguiente ventana seleccionaremos la ubicación del origen y destino de la copia de seguridad
+
+<p align="center">
+    <img src="imagenes/A4_2.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+por ultimo nos mostrara todos los datos relevantes para hacer la copia y nos permitirá realizar la copia en cuanto le demos al botón de play azul (arriba a la izquierda).
+
+durante la copia nos permite ver un log (a la derecha) en tiempo real informándonos de todas los evento que están ocurriendo hasta terminar nuestra copia de seguridad.
+
+<p align="center">
+    <img src="imagenes/A4_3.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+
+una vez realizada la copia podemos ver que el programa no solo nos ha creado la copia si no que le ha dado un nombre muy apropiado para identificar las copias.
+
+<p align="center">
+    <img src="imagenes/A4_4.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+Sin duda este programa es uno de los mejores para realizar copias de seguridad
+
+## 5. Back4All
+Esta aplicación es de pago por lo que tenemos varias opciones de inicio entre ellas
+- **empezar la prueba**
+- **introducir una clave de producto**
+- **comprar**
+<p align="center">
+    <img src="imagenes/A5_1.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+el siguiente cuadro nos pide que seleccionemos el plan que queramos
+<p align="center">
+    <img src="imagenes/A5_2.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+cuando estemos en el panel principal solo tenemos que pinchar en la parte izquierda superior donde poen “NEW” 
+<p align="center">
+    <img src="imagenes/A5_3.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+en la siguiente pantalla vamos a seleccionar la el disco y carpeta donde vamos a guardar las copias
+<p align="center">
+    <img src="imagenes/A5_4.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+ahora seleccionamos la carpeta que queremos hacer una copia de seguridad
+
+<p align="center">
+    <img src="imagenes/A5_5.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+y confirmamos que queremos guardar
+
+<p align="center">
+    <img src="imagenes/A5_6.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
+
+ y una vez le demos a save y acabe de copiar los archivos ya tendremos el backup para restaurarlo o subirlo a algún servicio de almacenamiento online
+
+<p align="center">
+    <img src="imagenes/A5_7.PNG" alt="captura1_actividad3" width="430" height="318">
+</p>
 
 ## 6. Configura y automatiza la copia de seguridad en un entorno linux de una estructura de directorios. Utiliza para ello el comando tar y el servicio crond – consideramos que la copia se realiza en el mismo equipo.
 
@@ -415,5 +503,127 @@ Aquí comprobamos que se crea el backup a la hora estimada.
 <p align="center">
     <img src="imagenes/A12_8.png" alt="captura8actividad12" width="600" height="171">
 </p>
+
+## 14. Explica y ejercita las opciones más importantes de la herramienta de clonación Clonezilla. vamos a realizar una clonación de un disco con nuestro clonezilla, para ello vamos a iniciar el ordenador utilizando clonezilla como boot y seleccionaremos la primera opción de clonezilla live.
+
+Nos preguntara si queremos usar clonezilla o poner el login de shell, utilizaremos la opción (start_clonezilla)
+<p align="center">
+    <img src="imagenes/Clonzilla2.PNG" alt="captura8actividad12" width="600" height="auto">
+</p>
+
+en la siguiente pantalla usaremos la opción de clonación en nuestro caso usaremos device-image (de disco a imagen)
+
+<p align="center">
+    <img src="imagenes/Clonzilla3.PNG" alt="captura8actividad12" width="600" height="auto">
+</p>
+antes de clonar tendremos que indicar que método usar, en mi caso voy a usar un servidor de red SMB.
+nos preguntará que ip usaremos, yo le daré dhcp, y a continuación nos pedirá la dirección del servidor o hostname en mi caso usare el hostname.
+<p align="center">
+    <img src="imagenes/Clonzilla4.PNG" alt="captura8actividad12" width="600" >
+</p>
+luego nos preguntara por el dominio en el caso de tenerlo (dejar en blanco si no lo tenemos)
+
+A continuación nos pedirá donde vamos a guardar la imagen en árbol de directorios en mi caso sera este
+también nos pedirá el usuario que tenga permisos para escribir. 
+después nos preguntara que protocolo SMB vamos a usar, yo lo dejare que ambas maquinas se pongan de acuerdo (auto)
+<p align="center">
+    <img src="imagenes/Clonzilla5.PNG" alt="captura8actividad12" width="600" >
+</p>
+nos preguntara por el modo de seguridad usaremos por defecto
+<p align="center">
+    <img src="imagenes/Cloniecilla6.PNG" alt="captura8actividad12" width="600" >
+</p>
+Y una vez que hayamos introducido todos los datos nos pedirá la contraseña y empezara la clonación
+<p align="center">
+    <img src="imagenes/Cloniecilla7.PNG.png" alt="captura8actividad12" width="600" >
+</p>
+una vez comprobamos que todo sea correcto le damos “intro” para continuar
+ahora nos preguntara en que modo hacerlo, yo usare principiante
+
+<p align="center">
+    <img src="imagenes/Cloniecilla8.PNG.png" alt="captura8actividad12" width="600" >
+</p>
+ahora seleccionaremos que guardar en mi caso el disco completo
+<p align="center">
+    <img src="imagenes/Cloniecilla9.png" alt="captura8actividad12" width="600" >
+</p>
+luego pondremos el nombre que queramos a la imagen (nos siguiere uno aceptable pero no perfecto)
+<p align="center">
+    <img src="imagenes/Clonzilla10.PNG.png" alt="captura8actividad12" width="600" >
+</p>
+ahora pondremos los discos que van a ser clonados
+<p align="center">
+    <img src="imagenes/Clonzilla11.PNG.png" alt="captura8actividad12" width="600" >
+</p>
+también nos permite usar la compresion z1p o z9p, usare la z1p
+a continuación nos permite usar la reparación del sistema de archivos o por el contrario omitir este paso.
+
+también nos permitirá comprobar la imagen y cifrar la imagen.
+Y nos permitirá elegir que hacer cuando acabe la clonación
+<p align="center">
+    <img src="imagenes/Clonzilla12.png" alt="captura8actividad12" width="600" >
+</p>
+y solamente tendremos que dejar que acabe la clonación.
+
+## 20. instalación de ubuntu con raid
+Vamos a realizar una instalación de ubuntu junto con la configuración de un raid 1
+
+realizaremos una instalación de manera habitual hasta que lleguemos a este apartado en el que seleccionaremos la ultima opción (custom storage layout)
+
+<p align="center">
+    <img src="imagenes/ubuntu_raid1.PNG" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+
+ahora le daremos a  create softaware raid (md)
+<p align="center">
+    <img src="imagenes/ubuntuRaid2.PNG" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+
+en esta pantalla rellenaremos los datos a nuestro gusto, en mi caso voy a llamarlo miraid1 y voy a usar raid1 con las 2 particiones que tengo (es extremadamente aconsejable usar particiones o discos del mismo tamaño)
+
+una vez tengamos las particiones y el raid como lo necesitemos o queramos le damos ha hecho y continuamos con la instalación.
+<p align="center">
+    <img src="imagenes/ubuntuRaid3.PNG" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+una vez que acabe el proceso de instalación
+<p align="center">
+    <img src="imagenes/UbuntuRaid4.PNG" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+y ya tenemos el raid creado
+
+## 21. Instalación y puesta en marcha de un sistema de almacenamiento compartido NAS. Utilizar Openfiler.
+Openfiler es una distribución de almacenamiento de código abierto que proporciona soluciones de almacenamiento en red (NAS) y almacenamiento de área de almacenamiento en red (SAN) para entornos empresariales y de servidores. Ofrece una variedad de características, incluyendo la administración de dispositivos de almacenamiento, protocolos de compartición de archivos (SMB, NFS, FTP), acceso a través de la web y herramientas de administración avanzada para configurar y administrar sistemas de almacenamiento en red. Openfiler es una opción versátil y escalable para crear soluciones de almacenamiento de datos compartidos en una red local o entorno empresarial.
+
+Las credenciales del usuario administrador por defecto son openfiler y password
+
+lo primero que haremos es activar el servicio nfs simplemente en la pestaña servicios.
+<p align="center">
+    <img src="imagenes/openfiler1.png" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+ahora vamos a crear una red de acceso para departamentos y configuramos una red y un nombre
+<p align="center">
+    <img src="imagenes/openfiler2.png" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+lo siguiente sera crear un volumen para compartir en volumen → add volumen
+<p align="center">
+    <img src="imagenes/openfiler3.png" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+ahora crearemos un bloque de almacenamiento en este volumen
+<p align="center">
+    <img src="imagenes/openfiler4.png" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+ahora iremos a shares para configurar la configuracion de directorios compartidos y crearemos un directorio
+<p align="center">
+    <img src="imagenes/openfiler5.png" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+y le daremos a make share
+ya solo falta darle acceso publico y actualizarlo
+<p align="center">
+    <img src="imagenes/openfiler6.png" alt="instalaacion ubuntu" width="600" height="auto">
+</p>
+
+
+
+
 
 ## 22. Instalación y puesta en marcha de un sistema de almacenamiento compartido SAN. Utilizar Openfiler.
