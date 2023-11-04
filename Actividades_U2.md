@@ -1,3 +1,114 @@
+# Información básica de herramientas
+## Clonezilla - Copia de seguridad y clonación de discos
+
+Clonezilla es una herramienta de código abierto utilizada para la clonación de sistemas operativos, particiones y la creación de copias de seguridad de datos en sistemas informáticos. Esta basado en Linux, ofrece un conjunto de características sólidas que la hacen ideal para una variedad de situaciones, desde la replicación de sistemas hasta la recuperación de datos y la migración de sistemas.
+
+## Características Principales
+
+- **Clonación de Disco:** Clonezilla permite la creación de copias exactas de discos duros o particiones en otros discos o imágenes de disco. Esto es esencial para replicar sistemas o realizar copias de seguridad completas.
+
+- **Manual de uso:** Clonecilla se usa por terminal asi que es necesario conocimientos basicos de consola, el manual de se puede consultar [Visita el sitio web de Clonezilla](https://clonezilla.org/clonezilla-live-doc.php)
+
+- **Enlace de descarga:** [Visita el sitio web de Clonezilla](https://clonezilla.org/)
+
+- **Aplicacion:** Clonezilla es perfecto para mantener copias de seguridad de sistemas operativos y restaurarlas cuando sea necesario y manteniendo las configuraciones guardadas en la copia.
+
+- **Licencia de Código Abierto:** Clonezilla es software de código abierto distribuido bajo la Licencia Pública General de GNU (GNU GPL), lo que significa que es gratuito y personalizable.
+
+- **Otros aspectos:**
+*Soporte para Diversos Medios de Almacenamiento
+*Múltiples Modos de Clonación
+*Compresión de Imágenes
+*alta Compatibilidad de Hardware
+*Comunidad Activa
+
+# Amanda Network Backup - Solución de Respaldo en Red
+
+Amanda, o Advanced Maryland Automatic Network Disk Archiver, es una solución de respaldo en red de código abierto que se utiliza para realizar copias de seguridad y restaurar datos en sistemas y redes de computadoras. Esta herramienta de respaldo proporciona una forma efectiva de gestionar copias de seguridad en entornos empresariales y de redes.
+
+## Características Principales
+
+- **Copia de Seguridad en Red:** Amanda permite la realización de copias de seguridad en sistemas y dispositivos a través de una red, lo que es útil para entornos de red distribuida.
+
+- **Programación Flexible:** Ofrece programación flexible para la ejecución de copias de seguridad automáticas en momentos específicos, lo que garantiza la protección regular de datos.
+
+- **Gestión de Dispositivos de Almacenamiento:** Amanda es compatible con una variedad de dispositivos de almacenamiento, incluyendo unidades de cinta, discos duros, y almacenamiento en la nube.
+
+- **Compresión y Encriptación:** Proporciona opciones de compresión y encriptación para proteger los datos de copia de seguridad durante la transferencia y el almacenamiento.
+
+- **Supervisión y Notificaciones:** Ofrece funciones de supervisión para verificar el estado de las copias de seguridad y notificar sobre eventos importantes.
+
+- **Recuperación de Datos:** Permite la restauración de datos desde copias de seguridad previamente creadas, lo que es esencial en caso de pérdida de información.
+
+- **Escalabilidad:** Amanda es escalable y puede adaptarse a las necesidades de respaldo de pequeñas empresas hasta grandes corporaciones.
+## Uso
+
+- **Manual de uso:** Toda la documentación se puede consultar desde su sitio oficial [Visita el sitio web de Clonezilla](https://clonezilla.org/clonezilla-live-doc.php)
+
+Amanda Network Backup es ampliamente utilizado por administradores de sistemas y equipos de TI que necesitan una solución de respaldo en red confiable y escalable. Esta herramienta es especialmente valiosa en entornos empresariales donde se deben respaldar y proteger grandes volúmenes de datos distribuidos en una red.
+
+**Sitio Web del Proyecto:** [Amanda Network Backup](http://www.amanda.org/)
+
+- **Otros aspectos:**
+**Comunidad activa**
+**Compatibilidad con sistemas operativos**
+**Integración con el almacenamiento en la nube**
+**Versiones gratuitas y comerciales**
+**Comunidad Activa**
+**Documentación Extensa**
+# Acronis True Image - Solución de Respaldo y Recuperación de Datos
+
+Acronis True Image es una potente solución de respaldo y recuperación de datos que ofrece protección avanzada para sistemas y datos críticos. Esta herramienta permite a los usuarios realizar copias de seguridad de sistemas completos, aplicaciones, archivos y configuraciones, así como recuperarlos de manera efectiva en caso de pérdida de datos o fallos del sistema.
+
+## Características Principales
+
+- **Copia de Seguridad Completa:** Acronis True Image permite realizar copias de seguridad de sistemas completos, discos duros, particiones, archivos y aplicaciones.
+
+- **Recuperación Flexible:** Ofrece opciones de recuperación flexibles, incluyendo la posibilidad de restaurar sistemas en su totalidad o seleccionar archivos y carpetas específicos.
+
+- **Protección en Tiempo Real:** Ofrece protección en tiempo real para evitar la pérdida de datos, incluyendo protección contra ransomware y otras amenazas.
+
+- **Clonación de Disco:** Facilita la clonación de discos duros para migrar sistemas a nuevos dispositivos o unidades de almacenamiento.
+
+- **Copia de Seguridad en la Nube:** Permite realizar copias de seguridad en la nube para garantizar la disponibilidad de datos desde cualquier ubicación.
+
+- **Interfaz de Usuario Intuitiva:** La interfaz de usuario de Acronis True Image es fácil de usar, lo que facilita la configuración de copias de seguridad y restauración de datos.
+
+## Uso
+
+Acronis True Image es utilizado tanto por usuarios individuales como por empresas para proteger datos críticos y sistemas. Ejemplos de uso incluyen:
+
+- Realizar copias de seguridad de sistemas completos antes de realizar actualizaciones o cambios importantes.
+
+- Proteger datos importantes contra pérdida accidental o ataques de malware.
+
+- Restaurar sistemas y datos en caso de fallos del sistema o pérdida de datos.
+
+- Migrar sistemas a nuevos dispositivos o unidades de almacenamiento.
+
+## Enlaces
+
+- **Página Oficial de Acronis True Image:** [Sitio Oficial](https://www.acronis.com/)
+
+- **Documentación Oficial:** [Documentación](https://www.acronis.com/en-us/support/documentation/)
+
+## Otros Aspectos
+
+- **Disponibilidad de Versiones Gratuitas y Comerciales:** Acronis True Image ofrece versiones de prueba gratuitas, así como ediciones comerciales con características adicionales.
+
+- **Soporte Técnico:** La empresa ofrece soporte técnico y recursos de ayuda para los usuarios de Acronis True Image.
+
+- **Compatibilidad de Plataformas:** La herramienta es compatible con una amplia gama de sistemas operativos y plataformas de hardware.
+
+- **Encriptación y Seguridad:** Ofrece opciones de encriptación y seguridad para proteger los datos de copia de seguridad.
+
+## Ejemplo de Uso
+
+la empresa pepe es una empresa que presta sercicios de consultoria y necesita proteger sus datos criticos, como es asi utilizan el programa para realizar copias 
+- copia de seguridad regular de datos empresariales
+- Imagen de sistema completa
+- Recuperación de desastres
+
 ## 2. Analiza y describe los sistemas biométricos que actualmente se están utilizando, así como los estudios de implantación de nuevas tecnologías respecto a este campo.
 
 Los sistemas biométricos son una forma avanzada de autenticación e identificación que se basa en características únicas de las personas. Actualmente, se utilizan una variedad de sistemas biométricos y se están realizando investigaciones para mejorar y ampliar sus aplicaciones.
@@ -25,6 +136,20 @@ Los sistemas biométricos son una forma avanzada de autenticación e identificac
 - La implantación de sistemas biométricos en dispositivos móviles y aplicaciones de la vida cotidiana está en constante crecimiento.
 - Se están explorando aplicaciones en la atención médica, la banca y otros sectores.
 - La regulación y la privacidad de los datos biométricos son temas importantes que se abordan a medida que se implementan nuevas tecnologías.
+
+## Actividad 3.- Analiza el asistente/herramienta de copias de seguridad con el programador de tareas, restauración de las copias de seguridad, puntos de restauración, disco de reparación y reinicio del sistema en reparación/restauración en un entorno Windows 10 o windows server. Realiza el ejemplo pertinente que muestre la utilización de herramienta
+
+En Windows 10 y Windows Server, puedes utilizar la herramienta de copias de seguridad integrada para programar y administrar copias de seguridad, realizar restauraciones, crear puntos de restauración, utilizar el disco de reparación y restaurar el sistema en situaciones de reparación. A continuación, te proporcionaré una descripción general de estas funcionalidades y un ejemplo de cómo usarlas.
+
+Para crear una copia de seguridad en windows 10 lo primero que haremos es ir a la configuración (pulsando click derecho sobre el logo de windows)
+en el panel que nos aparece pulsaremos en actualización y seguridad → copias de seguridad.
+
+Ahora a copias de seguridad y restauración (windows 7) → creación de imagen de sistema. 
+
+Ahora seleccionaremos los discos que van participar en la copia de seguridad.
+
+También podemos seleccionar un medio extraible o una ubicación de red, en mi caso usare un disco duro.
+
 
 ## 6. Configura y automatiza la copia de seguridad en un entorno linux de una estructura de directorios. Utiliza para ello el comando tar y el servicio crond – consideramos que la copia se realiza en el mismo equipo.
 
