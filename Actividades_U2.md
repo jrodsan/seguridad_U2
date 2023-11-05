@@ -622,8 +622,84 @@ ya solo falta darle acceso publico y actualizarlo
     <img src="imagenes/openfiler6.png" alt="instalaacion ubuntu" width="600" height="auto">
 </p>
 
-
-
-
-
 ## 22. Instalación y puesta en marcha de un sistema de almacenamiento compartido SAN. Utilizar Openfiler.
+Lo primero de todo será instalar una máquina openfiler, que una vez la tengamos y la pongamos en marcha nos aparecerá lo siguiente, donde copiaremos el enlace con su ip.
+
+<p align="center">
+    <img src="imagenes/A22_1.png" alt="captura1actividad22" width="525" height="337">
+</p>
+
+Una vez copiemos el enlace y lo pongamos en un navegador, en este caso mozilla firefox, ya que con google chrome no funcionaba, nos aparecerá el siguiente login, donde pondremos **usuario: openfiler** y **password: password.**
+
+<p align="center">
+    <img src="imagenes/A22_2.png" alt="captura2actividad22" width="536" height="282">
+</p>
+
+Una vez dentro, lo primero que haremos será crear un grupo de volúmenes.
+
+<p align="center">
+    <img src="imagenes/A22_3.png" alt="captura3actividad22" width="744" height="92">
+</p>
+
+Después crearemos un volumen dentro de ese grupo que acabamos de crear.
+
+<p align="center">
+    <img src="imagenes/A22_4.png" alt="captura4actividad22" width="514" height="629">
+</p>
+
+Lo siguiente será en administrar servicios **"Manage Services"**, activaremos e iniciaremos el **"iSCSI Target"**.
+
+<p align="center">
+    <img src="imagenes/A22_5.png" alt="captura5actividad22" width="446" height="464">
+</p>
+
+Después en la pestaña de **"Volumes"**, a la derecha, pinchamos sobre **"iSCSI Targets"** y ahí añadiremos uno.
+
+<p align="center">
+    <img src="imagenes/A22_6.png" alt="captura6actividad22" width="898" height="392">
+</p>
+
+En la misma pestaña, nos vamos a **"LUN Mapping"** y una vez dentro, le daremos a map.
+
+<p align="center">
+    <img src="imagenes/A22_7.png" alt="captura7actividad22" width="830" height="333">
+</p>
+
+Ahora nos vamos, en la misma pestaña de nuevo a **"Network ACL"** y lo cambiaremos a **Allow** y después hacemos clic en **Update**.
+
+<p align="center">
+    <img src="imagenes/A22_8.png" alt="captura8actividad22" width="784" height="259">
+</p>
+
+Ahora en Windows, tendremos que buscar **iniciador iSCSI**, cuando lo abramos tendremos que ir a la pestaña **Detección**, le daremos a **Detectar portal...**, pondremos la dirección ip del openfiler y luego en **Opciones avanzadas...** el **adaptador local** lo pondremos como **Iniciador iSCSI de Microsoft** y la **IP de iniciador** seleccionaremos la **ip del Windows**.
+
+<p align="center">
+    <img src="imagenes/A22_9.png" alt="captura9actividad22" width="969" height="591">
+</p>
+
+Volvemos a la pestaña **"Destinos"** y ahí lo conectaremos.
+
+<p align="center">
+    <img src="imagenes/A22_10.png" alt="captura10actividad22" width="466" height="693">
+</p>
+
+Después de darle a **conectar**, le daremos a **Advanced** y cambiaremos de nuevo:
+Adaptador local: **Iniciador iSCSI de Microsoft**
+IP de iniciador: **"ip de Windows"**
+IP del portal de destino: **"ip de openfiler / puerto"**
+
+<p align="center">
+    <img src="imagenes/A22_12.png" alt="captura12actividad22" width="513" height="619">
+</p>
+
+Ahora abrimos el administrador de discos con **diskmgmt.msc**.
+
+<p align="center">
+    <img src="imagenes/A22_11.png" alt="captura11actividad22" width="598" height="514">
+</p>
+
+Y le damos un formato al nuevo volumen del nuevo disco.
+
+<p align="center">
+    <img src="imagenes/A22_13.png" alt="captura13actividad22" width="598" height="475">
+</p>
