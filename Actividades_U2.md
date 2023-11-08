@@ -706,3 +706,27 @@ Y le damos un formato al nuevo volumen del nuevo disco.
 <p align="center">
     <img src="imagenes/A22_13.png" alt="captura13actividad22" width="598" height="475">
 </p>
+
+Ahora vamos a hacerlo con un cliente linux, lo primero instalamos el paquete iscsi.
+
+<p align="center">
+    <img src="imagenes/SAN_Ubuntu1.png" alt="captura14actividad22" width="798" height="498">
+</p>
+
+Tenemos que buscar el nombre del servidor, el cual copiaremos a partir del "iqn".
+
+<p align="center">
+    <img src="imagenes/SAN_Ubuntu2.png" alt="captura15actividad22" width="772" height="216">
+</p>
+
+Ahora se añade.
+
+<p align="center">
+    <img src="imagenes/SAN_Ubuntu3.png" alt="captura16actividad22" width="790" height="297">
+</p>
+
+Y ahora en Discos, vemos que ya está el disco.
+
+<p align="center">
+    <img src="imagenes/SAN_Ubuntu4.png" alt="captura17actividad22" width="957" height="513">
+</p>
