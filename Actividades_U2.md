@@ -635,7 +635,10 @@ Una vez copiemos el enlace y lo pongamos en un navegador, en este caso mozilla f
     <img src="imagenes/A22_2.png" alt="captura2actividad22" width="536" height="282">
 </p>
 
-Una vez dentro, lo primero que haremos será crear un grupo de volúmenes.
+Primero nos vamos a System y en "network Access Configuration" creamos uno nuevo que se llamará SAN con la ip de nuestra red y la máscara.
+Tenemos que tener un disco duro insertado en el openfiler para esta práctica.
+
+Ahora creamos un grupo de volúmenes.
 
 <p align="center">
     <img src="imagenes/A22_3.png" alt="captura3actividad22" width="744" height="92">
