@@ -180,25 +180,25 @@ Realizaremos la instalación de manera habitual como es normal en windows.
 Para realizar una copia de seguridad lo primero que tenemos que hacer es ciclar en el símbolo “+” y configurarlo como queramos
 
 <p align="center">
-    <img src="imagenes/A4_1.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A4_1.PNG" alt="captura1_actividad3" width="486" height="367">
 </p>
 en la siguiente ventana seleccionaremos la ubicación del origen y destino de la copia de seguridad
 
 <p align="center">
-    <img src="imagenes/A4_2.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/a4_2.PNG" alt="captura2_actividad3" width="490" height="368">
 </p>
 por ultimo nos mostrara todos los datos relevantes para hacer la copia y nos permitirá realizar la copia en cuanto le demos al botón de play azul (arriba a la izquierda).
 
 durante la copia nos permite ver un log (a la derecha) en tiempo real informándonos de todas los evento que están ocurriendo hasta terminar nuestra copia de seguridad.
 
 <p align="center">
-    <img src="imagenes/A4_3.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A4_3.PNG" alt="captura3_actividad3" width="491" height="374">
 </p>
 
 una vez realizada la copia podemos ver que el programa no solo nos ha creado la copia si no que le ha dado un nombre muy apropiado para identificar las copias.
 
 <p align="center">
-    <img src="imagenes/A4_4.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/a4_4.PNG" alt="captura4_actividad3" width="492" height="140">
 </p>
 Sin duda este programa es uno de los mejores para realizar copias de seguridad
 
@@ -207,36 +207,45 @@ Esta aplicación es de pago por lo que tenemos varias opciones de inicio entre e
 - **empezar la prueba**
 - **introducir una clave de producto**
 - **comprar**
+- 
 <p align="center">
-    <img src="imagenes/A5_1.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_1.PNG" alt="captura1_actividad5" width="430" height="318">
 </p>
+
 el siguiente cuadro nos pide que seleccionemos el plan que queramos
+
 <p align="center">
-    <img src="imagenes/A5_2.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_2.PNG" alt="captura2_actividad5" width="488" height="437">
 </p>
+
 cuando estemos en el panel principal solo tenemos que pinchar en la parte izquierda superior donde poen “NEW” 
+
 <p align="center">
-    <img src="imagenes/A5_3.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_3.PNG" alt="captura3_actividad5" width="496" height="347">
 </p>
+
 en la siguiente pantalla vamos a seleccionar la el disco y carpeta donde vamos a guardar las copias
+
 <p align="center">
-    <img src="imagenes/A5_4.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_4.PNG" alt="captura3_actividad5" width="402" height="288">
 </p>
+
 ahora seleccionamos la carpeta que queremos hacer una copia de seguridad
 
 <p align="center">
-    <img src="imagenes/A5_5.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_5.PNG" alt="captura4_actividad5" width="405" height="335">
 </p>
+
 y confirmamos que queremos guardar
 
 <p align="center">
-    <img src="imagenes/A5_6.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_6.PNG" alt="captura5_actividad5" width="339" height="255">
 </p>
 
  y una vez le demos a save y acabe de copiar los archivos ya tendremos el backup para restaurarlo o subirlo a algún servicio de almacenamiento online
 
 <p align="center">
-    <img src="imagenes/A5_7.PNG" alt="captura1_actividad3" width="430" height="318">
+    <img src="imagenes/A5_7.PNG" alt="captura6_actividad5" width="427" height="305">
 </p>
 
 ## 6. Configura y automatiza la copia de seguridad en un entorno linux de una estructura de directorios. Utiliza para ello el comando tar y el servicio crond – consideramos que la copia se realiza en el mismo equipo.
@@ -244,7 +253,7 @@ y confirmamos que queremos guardar
 Primero he creado una estructura de directorios:
 
 <p align="center">
-    <img src="imagenes/A6_1.png" alt="captura1_actividad6" width="430" height="318">
+    <img src="imagenes/A6_1.png" alt="captura1_actividad6" width="497" height="367">
 </p>
 
 A continuación creo el script que se usará para crear el backup en otra carpeta de destino.
