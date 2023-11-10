@@ -631,6 +631,16 @@ ya solo falta darle acceso publico y actualizarlo
     <img src="imagenes/openfiler6.png" alt="instalaacion ubuntu" width="600" height="auto">
 </p>
 
+### montar unidad en ubuntu
+para montar una unidad en ubuntu tendremos que añadir solo tenemos que añadir el comando siguiente
+sudo mount [direcion ip]:[ruta remota] [ruta local]  
+quedaria algo asi.
+sudo mount 192.168.1.22:/mnt/volumen_jesus/jesus_nas/compartida /mnt
+
+### montar en windows
+para montarlo en windows tenemos que instalar el servicio nfs cliente y en el panel de control -> caracteristicas de windows
+una vez que tengamos instalado el servicio si nos vamos al explorador de red y entramos dentro de red aparecerá los servicios en nuestra red, entre ellos el servidor nas.
+
 ## 22. Instalación y puesta en marcha de un sistema de almacenamiento compartido SAN. Utilizar Openfiler.
 Lo primero de todo será instalar una máquina openfiler, que una vez la tengamos y la pongamos en marcha nos aparecerá lo siguiente, donde copiaremos el enlace con su ip.
 
